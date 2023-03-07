@@ -44,10 +44,12 @@ main{
 .arch-logo{
     display: flex;
     justify-content: space-between;
-    width: 10rem;
+    margin-left: 9rem;
+    margin-top: -3rem;
 }
 
 .link-tab{
+    display: flex;
     margin-top: -3rem;
     margin-left: 18rem;
 }
@@ -432,7 +434,7 @@ button:hover{
     margin-left: 75rem;
 }
 
-@media only screen and (max-width: 820px) and (min-width: 768px){
+@media only screen and (max-width: 768px){
     .line{
         margin-left: 0.9rem;
     }
@@ -594,7 +596,7 @@ button:hover{
     }
 }
 
-@media only screen and (max-width: 480px) and (min-width: 375px) { 
+@media only screen and (max-width: 480px){ 
     body{
         margin: 0;
         padding: 0;
@@ -607,8 +609,18 @@ button:hover{
     }
 
     #map{
-        width: 375px;
+        width: 358px;
         margin: 1px;
+    }
+
+    .arch-image{
+        width: 77px;
+        height: 32px;
+    }
+
+    .arch-logo{
+        margin-top: 1.5rem;
+        margin-left: 2rem;
     }
 
     .top-logo{
@@ -618,6 +630,7 @@ button:hover{
 
     .mob-menu{
         height: 1rem;
+        width: 5rem;
     }
 
     .mob-open{
@@ -625,8 +638,8 @@ button:hover{
     }
 
     .mob-close, .mob-open{
-        margin-left: 21rem;
-        margin-top: -2rem;
+        margin-left: 24rem;
+        margin-top: -1.5rem;
     }
 
     .mob-list-item{
@@ -639,21 +652,21 @@ button:hover{
         position: absolute;
         width: 325px;
         height: 255px;
-        margin-left: 3.5rem;
-        margin-top: 1.7rem;
+        margin-left: 8.3rem;
+        margin-top: 4rem;
         background: #EEEFF4;
         z-index: 2;
     }
 
     .first-image-container{
-        /* display: flex;
-        width: 382px; */
         height: 455px;
-        margin-left: -2.5rem;
+        width: 320px;
+        margin-left: 2.5rem;
     }
 
     .image-container{
         height: 256px;
+        margin-left: -30rem;
     }
 
     .hero-image{
@@ -667,7 +680,7 @@ button:hover{
     .image-container-text{
         width: 401px;
         height: 355px;
-        margin-left: -17rem;
+        /* margin-left: -17rem; */
         margin-top: -2rem;
         background: #FFFFFF;
     }
@@ -676,13 +689,15 @@ button:hover{
         width: 253px;
         font-size: 38px;
         margin-top: 4rem;
+        margin-left: 4rem;
         line-height: 48px;
         letter-spacing: -1px;
     }
 
     .image-container-text p{
         width: 311px;
-        margin-left: 3.9rem;
+        height: 150px;
+        margin-left: 8rem;
         margin-top: -0.7px;
     }
 
@@ -696,6 +711,7 @@ button:hover{
         width: 351px;
         height: 760px;
         margin-left: 0.5rem;
+        margin-top: -7rem;
     }
 
     .office-container-one h2{
@@ -709,14 +725,20 @@ button:hover{
 
     .office-container-one {
         width: 170px;
+        margin-left: 2rem;
+    }
+
+    .office-container-one h4{
+        margin-inline: 0rem;
+        margin-top: 1rem;
     }
 
     .contact-container{
         display: flex;
         flex-direction: column;
         width: 351px;
-        height: 760px;
         margin-left: 0rem;
+        margin-top: 3rem;
     }
 
     .contact-container h1{
@@ -728,8 +750,12 @@ button:hover{
         margin-top: 4rem;
     }
 
+    form{
+        width: 358px;
+    }
+
     input, textarea{
-        width: 308px;
+        width: 300px;
     }
 
     button{
@@ -737,7 +763,8 @@ button:hover{
     }
 
     .error{
-        margin-left: 14rem;
+        margin-left: 13rem;
+        height: 1rem;
     }
 
     footer{
@@ -751,25 +778,35 @@ button:hover{
     }
 
     .item{
-        margin-left: 1rem;
+        margin-left: -4rem;
     }
 
     .footer-container {
         display: flex;
         flex-direction: column;
-        width: 400px;
+        /* width: 400px; */
         height: 400px;
-        margin-left: -1rem;
+        margin-left: 7rem;
     }
 
     .arch-logo-footer{
-        margin: 7rem;
+        margin-left: 8rem;
         margin-top: -5rem;
     }
 
+    ul a{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        margin-top: 4rem;
+        width: 75px;
+        margin-left: -2rem;
+    }
+
     .tab-left{
-        margin-left: -3.5rem;
-        margin-top: 15rem;
+        margin-left: -2.5rem;
+        margin-top: 25rem;
     }
 
     .footer-nav{

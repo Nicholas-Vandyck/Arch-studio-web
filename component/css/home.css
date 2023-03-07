@@ -743,7 +743,7 @@ ul .slider{
 
          /* mob-menu */
     .arch-logo{
-        margin-top: 1rem;
+        margin-top: 1.5rem;
         margin-left: 6rem;
     }
 
@@ -778,13 +778,13 @@ ul .slider{
 
     .wrapper-container{
         margin-left: -0.5rem;
-        width: 375px;
+        width: 355px;
         /* height: 560px; */
         margin-top: 3rem;
     }
 
     #image1{
-        width: 375px;
+        width: 355px;
         /* height: 560px; */
         
     }
@@ -854,7 +854,7 @@ ul .slider{
     }
 
     .wrapper-featured-section{
-        width: 311px;
+        width: 100%;
         margin-left: -1rem;
     }
 
@@ -911,6 +911,7 @@ ul .slider{
 
     .text-left-txt{
         display: flex;
+        justify-content: center;
         width: 311px;
         margin: 2rem;
     }
